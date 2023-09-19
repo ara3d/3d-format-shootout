@@ -27,13 +27,13 @@ Benchmarking and profiling data formats accurately is impossible because we can 
 implementation. While the implementation quality is influenced by the data format many other factors will influence the results. 
 Therefore this is more accurately would be described as a survey and analysis of 3D data format _implementations_. 
 
-## Languages Used
+## Languages and Tools Used
 
-We use only open-source JavaScript, WASM, C#, and C++ libraries.     
+We will examine on JavaScript, WASM, C#, and C++ libraries.     
 
 ## Tasks and Measurments
 
-* For reach file in the data set we will use various libraries and tools to compute the time and memory consumption to open file and compute:
+* For each file in the data set we will use various libraries and tools to compute the time and memory consumption to open file and compute:
   * Number of polygons, vertices, indices, meshes (distinct and instanced)
   * average polygon size (total and per-mesh)
   * bounding boxes: globally, total, bounding box
@@ -42,16 +42,18 @@ We use only open-source JavaScript, WASM, C#, and C++ libraries.
   * recognize the file format 
   * find and extract a subset of data
   * modify some part of the data and write it out again.  
- 
+  * Time to compress / decompress as zip
+  * Compression ratios  
+
 ## Format Information
 
-* For reach format we will report on: 
+* For each format we will report on: 
   * Support across tools and libraries  
   * Ability to handle different features 
   * References to the specification, and implementations used
   * Binary or text.
-  * Availability of reference implementations 
-
+  * Availability and links to reference implementations
+  
 ## Data Sets
 
 * Instanced data
@@ -96,13 +98,14 @@ We use only open-source JavaScript, WASM, C#, and C++ libraries.
 * XYZ
 * E57 
 
-# AEC/CAD Specific Formats
+# AEC/CAD Specialized Formats
 
 * VIM
 * IFC
 * BIM 
-* STEP
-* SVF / SVF2
+* STP / STEP
+* SVF
+* SVF2 (previously known as OTG) 
 * DWG 
 * 3DM - Rhino format
 * DXF -
