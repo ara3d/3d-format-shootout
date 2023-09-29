@@ -1,0 +1,9 @@
+[submodule "data/submodules/assimp-mdb"]
+	path = data/submodules/assimp-mdb
+	url = https://github.com/assimp/assimp-mdb
+[submodule "data/submodules/common-3d-test-models"]
+	path = data/submodules/common-3d-test-models
+	url = https://github.com/alecjacobson/common-3d-test-models
+[submodule "data/submodules/NASA-3D-Resources"]
+	path = data/submodules/NASA-3D-Resources
+	url = https://github.com/nasa/NASA-3D-Resources
