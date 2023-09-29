@@ -7,3 +7,6 @@
 [submodule "data/submodules/NASA-3D-Resources"]
 	path = data/submodules/NASA-3D-Resources
 	url = https://github.com/nasa/NASA-3D-Resources
+[submodule "data/submodules/glTF-Sample-Models"]
+	path = data/submodules/glTF-Sample-Models
+	url = https://github.com/KhronosGroup/glTF-Sample-Models
