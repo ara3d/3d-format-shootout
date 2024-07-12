@@ -16,3 +16,6 @@
 [submodule "data/submodules/buildingSMART-Sample-Test-Files"]
 	path = data/submodules/buildingSMART-Sample-Test-Files
 	url = https://github.com/buildingSMART/Sample-Test-Files
+[submodule "data/submodules/bim-whale-ifc-samples"]
+	path = data/submodules/bim-whale-ifc-samples
+	url = https://github.com/andrewisen/bim-whale-ifc-samples
