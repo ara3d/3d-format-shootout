@@ -1,6 +1,32 @@
 # 3D Format Shoot-out
 
-A set of benchmarks, tests, profiling tools, and sample data for comparing static 3D scene data formats.
+A set of sample-data, benchmarks, tests, and profiling tools for comparing static 3D scene data formats.
+
+## Getting the Data
+
+This repository uses [Git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) and 
+[Git LFS (Large File System)](https://git-lfs.com/). 
+
+To retrieve data with submodules you can clone the repository as follows:
+
+```
+git clone --recurse-submodules https://github.com/ara3d/3d-format-shootout
+```
+
+Or you can initialize the submodules and retrieve their data after cloning:
+
+```
+git submodule update --init --recursive
+```
+
+## Structure of Data 
+
+* [Submodules](https://github.com/ara3d/3d-format-shootout/data/submodules) - Some useful open-source 3D repositories of data exist, and have been added as submodules. 
+* [Copies](https://github.com/ara3d/3d-format-shootout/tree/main/data/copies) - Other open-source projects (like Three.JS) have useful test files and data sets, but to avoid bringining in everything, we just manually copied 
+their test data.
+* [Files](https://github.com/ara3d/3d-format-shootout/tree/main/data/files) - Some specific small files are added one-by-one here.
+* [Big](https://github.com/ara3d/3d-format-shootout/tree/main/data/big) - Some larger files (e.g., >50MB) are tracked by Git LFS, and are placed here. 
+* [Local-Untracked](https://github.com/ara3d/3d-format-shootout/tree/main/data/local-untracked) - Some data requires unzipping/unarchiving before being used and by default scripts will place them in this folder, so that they aren't accidentally pushed online.
 
 # About
 
