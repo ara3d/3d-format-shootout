@@ -13,3 +13,6 @@
 [submodule "data/submodules/fr24-3d-models"]
 	path = data/submodules/fr24-3d-models
 	url = https://github.com/Flightradar24/fr24-3d-models
+[submodule "data/submodules/buildingSMART-Sample-Test-Files"]
+	path = data/submodules/buildingSMART-Sample-Test-Files
+	url = https://github.com/buildingSMART/Sample-Test-Files
