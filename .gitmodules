@@ -19,3 +19,6 @@
 [submodule "data/submodules/bim-whale-ifc-samples"]
 	path = data/submodules/bim-whale-ifc-samples
 	url = https://github.com/andrewisen/bim-whale-ifc-samples
+[submodule "data/submodules/RWTH-E3D-DigitalHub"]
+	path = data/submodules/RWTH-E3D-DigitalHub
+	url = https://github.com/RWTH-E3D/DigitalHub
